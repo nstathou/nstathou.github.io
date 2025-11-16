@@ -29,18 +29,18 @@ author:
   bio              : "I am a PhD student in the Robotics and AI Group at Luleå University of Technology. My research interests lie in multi-session and multi-robot SLAM, long-term map management, and 3D LiDAR perception, with applications in mobile robotics and autonomous systems. I also work with machine learning methods as supporting tools for perception and mapping in complex and dynamic environments."
   location         : "Luleå, Sweden"
   employer         : "Robotics and AI Group, Luleå University of Technology"
-  uri              : "URL"
+  uri              : # URL
   email            : "niksta@ltu.se" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=a_aBwmMAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-0108-6286"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -48,13 +48,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/nstathou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/nikos-stathoulopoulos"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
