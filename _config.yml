@@ -81,8 +81,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  # books:
+  #   title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
@@ -285,8 +285,8 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
 
 
 # Sass/SCSS
