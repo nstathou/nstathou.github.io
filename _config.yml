@@ -29,7 +29,7 @@ author:
   bio              : "I am a PhD student in the Robotics and AI Group at Luleå University of Technology. My research interests lie in multi-session and multi-robot SLAM, long-term map management, and 3D LiDAR perception, with applications in mobile robotics and autonomous systems. I also work with machine learning methods as supporting tools for perception and mapping in complex and dynamic environments."
   location         : "Luleå, Sweden"
   employer         : "Luleå University of Technology"
-  uri              : # URL
+  uri              : "URL"
   email            : "niksta@ltu.se" 
 
   # Academic websites
