@@ -100,53 +100,122 @@ Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "A
 
 </details>
 
-## Conference Papers 🚧 Under Construction 🚧
+
+## Conference Papers
 
 ---
 
-**[C7] _A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration_**  
-A. Patel, M. A. V. Saucedo, **N. Stathoulopoulos**, V. Sankaranarayanan, I. Tevetzidis, C. Kanellakis, G. Nikolakopoulos.  
-_Published in IEEE ICRA 2025, Atlanta, USA_  
-Links: *(to appear)*
+<details markdown="block">
+<summary markdown="span"><strong>[C7]</strong> A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration --- <strong><em>(ICRA'25)</em></strong>
+</summary>
+
+Published in the *2025 IEEE International Conference on Robotics and Automation (ICRA)*
+
+Recommended citation: A. Patel, M. A. V. Saucedo, **N. Stathoulopoulos**, V. N. Sankaranarayanan, I. Tevetzidis, C. Kanellakis and G. Nikolakopoulos, "A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration," 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, pp. 15879-15885, 2025
+
+[IEEExplore]() \| [arXiv](https://arxiv.org/abs/2505.14859)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C6]</strong> Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs --- <strong><em>(IROS'24)</em></strong>
+</summary>
+
+Published in the *2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+
+Recommended citation: M. A. V. Saucedo, **N. Stathoulopoulos**, A. Patel, C. Kanellakis and G. Nikolakopoulos, "Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs," 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, pp. 9797-9802, 2024
+
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/10802560) \| [arXiv](https://arxiv.org/abs/2409.05392) \| [YouTube](https://www.youtube.com/watch?v=BDCMVx2GiQE)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C5]</strong> RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction --- <strong><em>(ICRA'24)</em></strong>
+</summary>
+
+Published in the *2024 IEEE International Conference on Robotics and Automation (ICRA)*
+
+Recommended citation: **N. Stathoulopoulos**, M. A. V. Saucedo, A. Koval and G. Nikolakopoulos, "RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, pp. 4883-4889, 2024
+
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/10406402) \| [arXiv](https://arxiv.org/abs/2402.02192) \| [YouTube](https://www.youtube.com/watch?v=f9BnK34XkuQ)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C4]</strong> Redundant and Loosely Coupled LiDAR-Wi-Fi Integration for Robust Global Localization in Autonomous Mobile Robotics
+</summary>
+
+Published in the *2023 21st International Conference on Advanced Robotics (ICAR)*
+
+Recommended citation: **N. Stathoulopoulos**, E. Pagliari, L. Davoli and G. Nikolakopoulos, "Redundant and Loosely Coupled LiDAR-Wi-Fi Integration for Robust Global Localization in Autonomous Mobile Robotics," 2023 21st International Conference on Advanced Robotics (ICAR), Abu Dhabi, United Arab Emirates, pp. 121-127, 2023
+
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/10406402)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C3]</strong> Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison --- <strong><em>(IROS'23)</em></strong>
+</summary>
+
+Published in the *2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+
+Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison," 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, pp. 8077-8083, 2023
+
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/10342248) \| [arXiv](https://arxiv.org/abs/2306.15416)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C2]</strong> FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration --- <strong><em>(ICRA'23)</em></strong>
+</summary>
+
+Published in the *2023 IEEE International Conference on Robotics and Automation (ICRA)*
+
+Recommended citation: **N. Stathoulopoulos**, A. Koval, A. -a. Agha-mohammadi and G. Nikolakopoulos, "FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration," 2023 IEEE International Conference on Robotics and Automation (ICRA), London, United Kingdom, pp. 3483-3489, 2023
+
+[GitHub](https://github.com/LTU-RAI/FRAME) \| [IEEExplore](https://ieeexplore.ieee.org/document/10160771) \| [arXiv](https://arxiv.org/abs/2301.09213)
+
+</details>
+
+<details markdown="block">
+<summary markdown="span"><strong>[C1]</strong> School Hackerspaces: Supporting Informatics in Secondary Education
+</summary>
+
+Published in the *12th Conference on Informatics in Education (CIE), pp. 88‑95, 2020*
+
+[Proceedings](http://events.di.ionio.gr/cie/images/documents20/CIE2020_OnLineProceedings/8.CIE2020_200.020_Dhmh_Final_p88-95.pdf)
+
+</details>
+
+
+## Workshop Papers
 
 ---
 
-**[C6] [_Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs_](https://ieeexplore.ieee.org/abstract/document/10802560)**  
-M. A. V. Saucedo, **N. Stathoulopoulos**, A. Patel, C. Kanellakis, G. Nikolakopoulos.  
-_Published in IEEE/RSJ IROS 2024, Abu Dhabi, UAE, pp. 9797–9802_  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/abstract/document/10802560)
+<details markdown="block">
+<summary markdown="span"><strong>[W1]</strong> Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition --- <strong><em>(IROS'24)</em></strong> 🏅
+</summary>
+
+**Best Paper Award** in the *Standing the Test of Time Workshop: Retrospective and Future of World Representations for Lifelong Robotics at 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
+
+Recommended citation: **N. Stathoulopoulos**, V. Sumanthy, C. Kanellakis and G. Nikolakopoulos, "Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition," Standing the Test of Time Workshop: Retrospective and Future of World Representations for Lifelong Robotics at 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, October 14-15, 2024
+
+[GitHub](https://github.com/LTU-RAI/opt-key) \| [Workshop](https://montrealrobotics.ca/test-of-time-workshop/) \| [Paper](https://montrealrobotics.ca/test-of-time-workshop/assets/pdf/papers/Does_Sample_Space_Matter__Preliminary_Results_on_Keyframe_Sampling_Optimization_for_LiDAR_based_Place_Recognition.pdf)
+
+</details>
+
+## Patents
 
 ---
 
-**[C5] [_RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction_](https://ieeexplore.ieee.org/document/10611602)**  
-**N. Stathoulopoulos**, M. A. V. Saucedo, A. Koval, G. Nikolakopoulos.  
-_Published in IEEE ICRA 2024, Yokohama, Japan, pp. 4883–4889_  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/document/10611602)
+<details markdown="block">
+<summary markdown="span"><strong>[P1]</strong> First node, second node and methods performed thereby for handling mapping information enabling to map a space
+</summary>
 
----
+Patent pending, Ericsson AB, WO2024199687A1, Application No. PCT/EP2023/062812, 2023
 
-**[C4] [_Redundant and Loosely Coupled LiDAR-Wi-Fi Integration for Robust Global Localization in Autonomous Mobile Robotics_](https://ieeexplore.ieee.org/document/10406402)**  
-**N. Stathoulopoulos**, E. Pagliari, L. Davoli, G. Nikolakopoulos.  
-_Published in ICAR 2023, Abu Dhabi, UAE, pp. 121–127_  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/document/10406402)
+Inventors: G Damigos, **N. Stathoulopoulos**, T. Lindgren, S. Sandberg, G. Nikolakopoulos
 
----
+[Google Patents](https://patents.google.com/patent/WO2024199687A1/)
 
-**[C3] [_Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison_](https://ieeexplore.ieee.org/document/10342248)**  
-**N. Stathoulopoulos**, A. Koval, G. Nikolakopoulos.  
-_Published in IEEE/RSJ IROS 2023, Detroit, MI, USA, pp. 8077–8083_  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/document/10342248)
-
----
-
-**[C2] [_FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration_](https://ieeexplore.ieee.org/document/10160771)**  
-**N. Stathoulopoulos**, A. Koval, A.-A. Agha-Mohammadi, G. Nikolakopoulos.  
-_Published in IEEE ICRA 2023, London, UK, pp. 3483–3489_  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/document/10160771)
-
----
-
-**[C1] [_School Hackerspaces: Supporting Informatics in Secondary Education_](http://events.di.ionio.gr/cie/images/documents20/CIE2020_OnLineProceedings/8.CIE2020_200.020_Dhmh_Final_p88-95.pdf)**  
-D. Dimitropoulos, **N. Stathoulopoulos**, E. Rompola, et al.  
-_Published in CIE 2020, pp. 88–95_  
-Links: [PDF](http://events.di.ionio.gr/cie/images/documents20/CIE2020_OnLineProceedings/8.CIE2020_200.020_Dhmh_Final_p88-95.pdf)
+</details>
