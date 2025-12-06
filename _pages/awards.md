@@ -1,15 +1,11 @@
 ---
 layout: archive
-title: ""
+title: "🏆Awards & Grants"
 permalink: /awards/
 author_profile: true
 ---
 
-## 🏅 Awards & Grants
-
-- **IEEE ICRA 2025 RAS Travel Support Grant** · _IEEE Robotics and Automation Society_     
-  Travel support to present corresponding publication at **IEEE ICRA 2025** in Atlanta, USA.  
-  [Paper [C5]](https://ieeexplore.ieee.org/document/10576057?source=authoralert) \| Mar 2025
+## 🏅 Awards
 
 - **IVA’s 100 List — Current Research with Potential to Create Value** · _Royal Swedish Academy of Engineering Sciences (IVA)_   
   Listed for the project _“AI-enabled Data-Driven Change Detection.”_   
@@ -18,6 +14,12 @@ author_profile: true
 - **Best Paper Award** — **“Standing the Test of Time: Retrospective and Future of World Representations for Lifelong Robotics” Workshop @ IEEE IROS 2024**  
   N. Stathoulopoulos, V. Sumathy, C. Kanellakis and G. Nikolakopoulos, _“Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition.”_   
   [Workshop](https://montrealrobotics.ca/test-of-time-workshop/papers) \| [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7252173559718944768/) \| [Paper](https://montrealrobotics.ca/test-of-time-workshop/assets/pdf/papers/Does_Sample_Space_Matter__Preliminary_Results_on_Keyframe_Sampling_Optimization_for_LiDAR_based_Place_Recognition.pdf) \| [Full Paper [J8]](https://ieeexplore.ieee.org/document/11266938) \| Oct 2024
+
+## 💰 Grants
+
+- **IEEE ICRA 2025 RAS Travel Support Grant** · _IEEE Robotics and Automation Society_     
+  Travel support to present corresponding publication at **IEEE ICRA 2025** in Atlanta, USA.  
+  [Paper [C5]](https://ieeexplore.ieee.org/document/10576057?source=authoralert) \| Mar 2025
 
 - **Wallenberg Foundation’s Jubilee Grant** · _Knut and Alice Wallenberg Foundation_    
   Travel grant to present corresponding publication at **IEEE ICRA 2024** in Yokohama, Japan.   
