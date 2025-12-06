@@ -6,85 +6,93 @@ author_profile: true
 ---
 
 ---
-<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-
----
+<div class="wordwrap">You can also find my articles on my <a href="{{site.author.googlescholar}}"> Google Scholar</a> profile.</div>
 
 ## Journal Articles
 
-[J9] Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression
-_Published in IEEE Robotics and Automation Letters (RA-L), submitted_
+---
 
-Recommended citation: **Stathoulopoulos, N.**, Sumathy, V., Kanellakis, C., Nikolakopoulos, G. (2025). “Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression.” *IEEE RA-L* (submitted).  
-Links: *(coming soon)*
+### [J8] A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM
+
+Published in *IEEE Robotics and Automation Letters (RA-L), Jan. 2026*
+
+Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulos, "A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM," in IEEE Robotics and Automation Letters, vol. 11, no. 1, pp. 738-745, 2026.
+
+[GitHub](https://github.com/LTU-RAI/opt-key) \| [IEEExplore](https://ieeexplore.ieee.org/document/11266938) \| [arXiv](https://arxiv.org/abs/2501.01791) \| [YouTube](https://www.youtube.com/watch?v=70CcaRCL-7g)
 
 ---
 
-**[J8] _Why Sample Space Matters: Keyframe Sampling Optimization for LiDAR-based Place Recognition_**  
-_Published in IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), submitted_
+### [J7] *Have We Scene It All?* Scene Graph-Aware Deep Point Cloud Compression
 
-Recommended citation: **Stathoulopoulos, N.**, Sumathy, V., Kanellakis, C., Nikolakopoulos, G. (2025). “Why Sample Space Matters: Keyframe Sampling Optimization for LiDAR-based Place Recognition.” *T-PAMI* (submitted).  
-Links: *(coming soon)*
+Published in *IEEE Robotics and Automation Letters (RA-L), Dec. 2025*
 
----
+Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulos, "Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression," in IEEE Robotics and Automation Letters, vol. 10, no. 12, pp. 12477-12484, 2025.
 
-**[J7] [_A Minimal Subset Approach for Informed Keyframe Sampling in Large-scale SLAM_](https://arxiv.org/abs/2501.01791)**  
-_Published in IEEE Robotics and Automation Letters (RA-L), submitted; preprint available_
-
-Recommended citation: **Stathoulopoulos, N.**, Kanellakis, C., Nikolakopoulos, G. (2025). “A Minimal Subset Approach for Informed Keyframe Sampling in Large-scale SLAM.” *IEEE RA-L* (submitted).  
-Links: [Preprint (arXiv:2501.01791)](https://arxiv.org/abs/2501.01791)
+[GitHub](https://github.com/LTU-RAI/sga-dpcc) \| [IEEExplore](https://ieeexplore.ieee.org/abstract/document/11206444) \| [arXiv](https://arxiv.org/abs/2510.08512) \| [YouTube](https://www.youtube.com/watch?v=MFKrhtmc3Tw)
 
 ---
 
-**[J6] [_FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field_](https://ieeexplore.ieee.org/document/10576057?source=authoralert)**  
-_Published in IEEE Transactions on Field Robotics, 2024 (vol. 1, pp. 1–26)_
+### [J6] Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments
 
-Recommended citation: **Stathoulopoulos, N.**, Lindqvist, B., Koval, A., Agha-Mohammadi, A.-A., Nikolakopoulos, G. (2024). “FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field.” *IEEE Trans. on Field Robotics*, 1:1–26.  
-Links: [Publisher/DOI](https://ieeexplore.ieee.org/document/10576057?source=authoralert)
+Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2025*
 
----
+Recommended citation: N. Dahlquist, S. Nordström, **N. Stathoulopoulos**, B. Lindqvist, A. Saradagi and G. Nikolakopoulos, "Deployment of an Aerial Multiagent System for Automated Task Execution in Large-Scale Underground Mining Environments," in IEEE Transactions on Field Robotics, vol. 2, pp. 2997-1101, 2025.
 
-**[J5] [_Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs_](https://advance.sagepub.com/doi/full/10.22541/au.171027386.64290736/v1)**  
-_Published in Journal of Field Robotics, preprint_
-
-Recommended citation: Nordström, S., **Stathoulopoulos, N.**, Dahlquist, N., Lindqvist, B., Tevetzidis, I., Kanellakis, C., Nikolakopoulos, G. (2024). “Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs.” *Journal of Field Robotics* (preprint).  
-Links: [Preprint](https://advance.sagepub.com/doi/full/10.22541/au.171027386.64290736/v1)
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/11037947) \| [arXiv](https://arxiv.org/abs/2501.10262)
 
 ---
 
-**[J4] [_Deployment of Autonomous UAVs in Underground Mines: Field Evaluations and Use-Case Demonstrations_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4374895)**  
-_Published in Journal of Intelligent & Robotic Systems — under revision (30 Years Special Issue)_
+### [J5] Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs
 
-Recommended citation: Lindqvist, B., **Stathoulopoulos, N.**, Karlsson, S., Yifan, B., Patel, A., Haluska, J., Tevetzidis, I., Koval, A., et al. (2024). “Deployment of Autonomous UAVs in Underground Mines: Field Evaluations and Use-Case Demonstrations.” *Journal of Intelligent & Robotic Systems* (under revision).  
-Links: [Preprint (SSRN)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4374895)
+Published in *Journal of Field Robotics (JFR), Jan. 2025*
 
----
+Recommended citation: S. Nordström, **N. Stathoulopoulos**, N. Dahlquist, B. Lindqvist, I. Tevetzidis, C. Kanellakis, G. Nikolakopoulos, “Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs,” Journal of Field Robotics, vol. 42, pp. 2076-2094, 2025
 
-**[J3] [_Communication-Aware Control of Large Data Transmissions via Centralized Cognition and 5G Networks for Multi-Robot Map Merging_](https://doi.org/10.1007/s10846-023-02045-4)**  
-_Published in Journal of Intelligent & Robotic Systems, 2024 (110:22)_
-
-Recommended citation: Damigos, G., **Stathoulopoulos, N.**, Koval, A., Lindgren, T., Nikolakopoulos, G. (2024). “Communication-Aware Control of Large Data Transmissions via Centralized Cognition and 5G Networks for Multi-Robot Map Merging.” *Journal of Intelligent & Robotic Systems*, 110:22.  
-Links: [Publisher/DOI](https://doi.org/10.1007/s10846-023-02045-4)
+[Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22500) \| [YouTube](https://www.youtube.com/watch?v=jzg-KsWKPp8)
 
 ---
 
-**[J2] [_A Comparative Field Study of Global Pose Estimation Algorithms in Subterranean Environments_](https://doi.org/10.1007/s12555-023-0026-2)**  
-_Published in International Journal of Control, Automation and Systems, 2024 (22:690–704)_
+### [J4] FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field
 
-Recommended citation: **Stathoulopoulos, N.**, Koval, A., Nikolakopoulos, G. (2024). “A Comparative Field Study of Global Pose Estimation Algorithms in Subterranean Environments.” *International Journal of Control, Automation and Systems*, 22:690–704.  
-Links: [Publisher/DOI](https://doi.org/10.1007/s12555-023-0026-2)
+Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2024*
 
----
+Recommended citation: **N. Stathoulopoulos**, B. Lindqvist, A. Koval, A. -A. Agha-Mohammadi and G. Nikolakopoulos, "FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field," in IEEE Transactions on Field Robotics, vol. 1, pp. 1-26, 2024
 
-**[J1] [_3DEG: Data-driven Descriptor Extraction for Global Re-localization in Subterranean Environments_](https://www.sciencedirect.com/science/article/pii/S0957417423020109)**  
-_Published in Expert Systems with Applications, 2024 (237B:121508)_
-
-Recommended citation: **Stathoulopoulos, N.**, Koval, A., Nikolakopoulos, G. (2024). “3DEG: Data-driven Descriptor Extraction for Global Re-localization in Subterranean Environments.” *Expert Systems with Applications*, 237(B):121508.  
-Links: [Publisher/DOI](https://www.sciencedirect.com/science/article/pii/S0957417423020109)
+[GitHub](https://github.com/LTU-RAI/FRAME) \| [IEEExplore](https://ieeexplore.ieee.org/abstract/document/10576057) \| [arXiv](https://arxiv.org/abs/2404.18006)
 
 ---
 
-### Conference Papers
+### [J3] Communication-Aware Control of Large Data Transmissions via Centralized Cognition and 5G Networks for Multi-Robot Map Merging
+
+Published in *Journal of Intelligent & Robotic Systems (JIRS), Jan. 2024*
+
+Recommended citation: G. Damigos, **N. Stathoulopoulos**, A. Koval, T. Lindgren and G. Nikolakopoulos, "Communication-Aware Control of Large Data Transmissions via Centralized Cognition and 5G Networks for Multi-Robot Map Merging," in Journal of Intelligent & Robotic Systems, vol. 110, Art. no. 22, 2024.
+
+[Springer](https://link.springer.com/article/10.1007/s10846-023-02045-4)
+
+---
+
+### [J2] 3DEG: Data-driven Descriptor Extraction for Global Re-localization in Subterranean Environments
+
+Published in *Expert Systems with Applications (ESWA), Mar. 2024*
+
+Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "3DEG: Data-driven Descriptor Extraction for Global Re-localization in Subterranean Environments," in Expert Systems with Applications, vol. 237(B), Art. no. 121508, 2024.
+
+[Elsevier](https://www.sciencedirect.com/science/article/pii/S0957417423020109) \| [arXiv](https://arxiv.org/abs/2210.07285)
+
+---
+
+### [J1] A Comparative Field Study of Global Pose Estimation Algorithms in Subterranean Environments
+
+Published in *International Journal of Control, Automation and Systems (IJCAS), Feb. 2024*
+
+Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "A Comparative Field Study of Global Pose Estimation Algorithms in Subterranean Environments," International Journal of Control, Automation and Systems, vol. 22, pp. 690-704, 2024.
+
+[Springer](https://link.springer.com/article/10.1007/s12555-023-0026-2#citeas)
+
+---
+
+## Conference Papers
 
 **[C7] _A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration_**  
 A. Patel, M. A. V. Saucedo, **N. Stathoulopoulos**, V. Sankaranarayanan, I. Tevetzidis, C. Kanellakis, G. Nikolakopoulos.  
