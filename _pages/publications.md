@@ -106,6 +106,18 @@ Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "A
 ---
 
 <details markdown="block">
+<summary markdown="span"><strong>[C8]</strong> Real-time Point Cloud Data Transmission via L4S for 5G-Edge-Assisted Robotics
+</summary>
+
+Submitted in the *2026 IFAC World Congress*
+
+Recommended citation: G. Damigos, **N. Stathoulopoulos**, A. S. Seisa, S. Sandberg and G. Nikolakopoulos, "Real-time Point Cloud Data Transmission via L4S for 5G-Edge-Assisted Robotics," 2025
+
+[arXiv](https://arxiv.org/abs/2511.15677)
+
+</details>
+
+<details markdown="block">
 <summary markdown="span"><strong>[C7]</strong> A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration --- <strong><em>(ICRA'25)</em></strong>
 </summary>
 
