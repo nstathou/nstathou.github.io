@@ -19,11 +19,11 @@ author_profile: true
 
 - **IEEE ICRA 2025 RAS Travel Support Grant** · _IEEE Robotics and Automation Society_     
   Travel support to present corresponding publication at **IEEE ICRA 2025** in Atlanta, USA.  
-  [Paper [C5]](https://ieeexplore.ieee.org/document/10576057?source=authoralert) \| Mar 2025
+  [Paper [J4]](https://ieeexplore.ieee.org/document/10576057?source=authoralert) \| Mar 2025
 
 - **Wallenberg Foundation’s Jubilee Grant** · _Knut and Alice Wallenberg Foundation_    
   Travel grant to present corresponding publication at **IEEE ICRA 2024** in Yokohama, Japan.   
-  [Paper](https://ieeexplore.ieee.org/document/10611602) \| [Info](https://www.ltu.se/en/about-the-university/grants-prizes-and-research-funding/scholarships-an-prizes-for-employees) \| Feb 2024
+  [Paper [C5]](https://ieeexplore.ieee.org/document/10611602) \| [Info](https://www.ltu.se/en/about-the-university/grants-prizes-and-research-funding/scholarships-an-prizes-for-employees) \| Feb 2024
 
 - **Wallenberg Launchpad (WALP) Phase 2 — AI-enabled Data-Driven Change Detection** · _WASP financed by the Knut and Alice Wallenberg Foundation_   
   Phase 2 awarded following successful pitch; continued development of the concept from initial publication.   
