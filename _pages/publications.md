@@ -13,7 +13,7 @@ author_profile: true
 ---
 
 <details markdown="block">
-<summary markdown="span"><strong>[J8]</strong> A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM --- <strong><em>(RA-L)</em></strong></summary>
+<summary markdown="span"><strong>[J8]</strong> A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM --- <strong>(RA-L)</strong></summary>
 
 Published in *IEEE Robotics and Automation Letters (RA-L), Jan. 2026*
 
@@ -24,7 +24,7 @@ Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulo
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J7]</strong> Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression --- <strong><em>(RA-L)</em></strong></summary>
+<summary markdown="span"><strong>[J7]</strong> Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression --- <strong>(RA-L)</strong></summary>
 
 Published in *IEEE Robotics and Automation Letters (RA-L), Dec. 2025*
 
@@ -35,7 +35,7 @@ Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulo
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J6]</strong> Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments --- <strong><em>(T-FR)</em></strong></summary>
+<summary markdown="span"><strong>[J6]</strong> Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments --- <strong>(T-FR)</strong></summary>
 
 Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2025*
 
@@ -46,7 +46,7 @@ Recommended citation: N. Dahlquist, S. Nordström, **N. Stathoulopoulos**, B. Li
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J5]</strong> Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs --- <strong><em>(JFR)</em></strong></summary>
+<summary markdown="span"><strong>[J5]</strong> Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs --- <strong>(JFR)</strong></summary>
 
 Published in *Journal of Field Robotics (JFR), Jan. 2025*
 
@@ -57,7 +57,7 @@ Recommended citation: S. Nordström, **N. Stathoulopoulos**, N. Dahlquist, B. Li
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J4]</strong> FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field --- <strong><em>(T-FR)</em></strong></summary>
+<summary markdown="span"><strong>[J4]</strong> FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field --- <strong>(T-FR)</strong></summary>
 
 Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2024*
 
@@ -118,7 +118,7 @@ Recommended citation: G. Damigos, **N. Stathoulopoulos**, A. S. Seisa, S. Sandbe
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[C7]</strong> A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration --- <strong><em>(ICRA'25)</em></strong>
+<summary markdown="span"><strong>[C7]</strong> A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration --- <strong>(ICRA'25)</strong>
 </summary>
 
 Published in the *2025 IEEE International Conference on Robotics and Automation (ICRA)*
@@ -130,7 +130,7 @@ Recommended citation: A. Patel, M. A. V. Saucedo, **N. Stathoulopoulos**, V. N. 
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[C6]</strong> Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs --- <strong><em>(IROS'24)</em></strong>
+<summary markdown="span"><strong>[C6]</strong> Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs --- <strong>(IROS'24)</strong>
 </summary>
 
 Published in the *2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
@@ -142,7 +142,7 @@ Recommended citation: M. A. V. Saucedo, **N. Stathoulopoulos**, A. Patel, C. Kan
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[C5]</strong> RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction --- <strong><em>(ICRA'24)</em></strong>
+<summary markdown="span"><strong>[C5]</strong> RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction --- <strong>(ICRA'24)</strong>
 </summary>
 
 Published in the *2024 IEEE International Conference on Robotics and Automation (ICRA)*
@@ -166,7 +166,7 @@ Recommended citation: **N. Stathoulopoulos**, E. Pagliari, L. Davoli and G. Niko
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[C3]</strong> Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison --- <strong><em>(IROS'23)</em></strong>
+<summary markdown="span"><strong>[C3]</strong> Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison --- <strong>(IROS'23)</strong>
 </summary>
 
 Published in the *2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
@@ -178,7 +178,7 @@ Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "I
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[C2]</strong> FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration --- <strong><em>(ICRA'23)</em></strong>
+<summary markdown="span"><strong>[C2]</strong> FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration --- <strong>(ICRA'23)</strong>
 </summary>
 
 Published in the *2023 IEEE International Conference on Robotics and Automation (ICRA)*
@@ -204,7 +204,7 @@ Published in the *12th Conference on Informatics in Education (CIE), pp. 88‑95
 ---
 
 <details markdown="block">
-<summary markdown="span"><strong>[W1]</strong> Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition --- <strong><em>(IROS'24)</em></strong> 🏅
+<summary markdown="span"><strong>[W1]</strong> Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition --- <strong>(IROS'24)</strong> 🏅
 </summary>
 
 **Best Paper Award** in the *Standing the Test of Time Workshop: Retrospective and Future of World Representations for Lifelong Robotics at 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
