@@ -13,7 +13,7 @@ author_profile: true
 ---
 
 <details markdown="block">
-<summary markdown="span"><strong>[J8]</strong> A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM --- <strong>(RA-L)</strong></summary>
+<summary markdown="span"><strong>[J8]</strong> A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM --- <strong>(RA-L + ICRA'26)</strong></summary>
 
 Published in *IEEE Robotics and Automation Letters (RA-L), Jan. 2026*
 
@@ -24,7 +24,7 @@ Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulo
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J7]</strong> Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression --- <strong>(RA-L)</strong></summary>
+<summary markdown="span"><strong>[J7]</strong> Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression --- <strong>(RA-L + ICRA'26)</strong></summary>
 
 Published in *IEEE Robotics and Automation Letters (RA-L), Dec. 2025*
 
@@ -35,7 +35,7 @@ Recommended citation: **N. Stathoulopoulos**, C. Kanellakis and G. Nikolakopoulo
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J6]</strong> Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments --- <strong>(T-FR)</strong></summary>
+<summary markdown="span"><strong>[J6]</strong> Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments --- <strong>(T-FR + ICRA'26)</strong></summary>
 
 Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2025*
 
@@ -57,7 +57,7 @@ Recommended citation: S. Nordström, **N. Stathoulopoulos**, N. Dahlquist, B. Li
 </details>
 
 <details markdown="block">
-<summary markdown="span"><strong>[J4]</strong> FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field --- <strong>(T-FR)</strong></summary>
+<summary markdown="span"><strong>[J4]</strong> FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field --- <strong>(T-FR + ICRA'25)</strong></summary>
 
 Published in *IEEE Transactions on Field Robotics (T-FR), Jun. 2024*
 
