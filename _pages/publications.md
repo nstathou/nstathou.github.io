@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "📑 Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -8,7 +8,7 @@ author_profile: true
 ---
 <div class="wordwrap">You can also find my articles on my <a href="{{site.author.googlescholar}}">Google Scholar</a> profile.</div>
 
-## Journal Articles
+## 📖 Journal Articles
 
 ---
 
@@ -100,8 +100,7 @@ Recommended citation: **N. Stathoulopoulos**, A. Koval and G. Nikolakopoulos, "A
 
 </details>
 
-
-## Conference Papers
+## 📑 Conference Papers
 
 ---
 
@@ -199,7 +198,7 @@ Published in the *12th Conference on Informatics in Education (CIE), pp. 88‑95
 
 </details>
 
-## Workshop Papers
+## 🛠️ Workshop Papers
 
 ---
 
@@ -215,7 +214,7 @@ Recommended citation: **N. Stathoulopoulos**, V. Sumanthy, C. Kanellakis and G. 
 
 </details>
 
-## Patents
+## 📄 Patents
 
 ---
 
