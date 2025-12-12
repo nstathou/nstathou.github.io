@@ -5,16 +5,32 @@ permalink: /teaching/
 author_profile: true
 ---
 
-🚧 Under Construction 🚧
-
 🔴 --- No longer active | 🟠 --- On hold | 🟢 --- Currently active
 
 ## 📚 Master Theses Supervision
 
+<details markdown="block">
+<summary markdown="span"> 🟢 <strong> Optimizing Relocalization Likelihood in Challenging Environments with Reinforcement Learning </strong>
+</summary>
+🚧 Under Construction 🚧
+</details>
+
+<details markdown="block">
+<summary markdown="span"> 🟢 <strong> Collaborative Exploration of Ground-Arial Robot Team Through Task-Driven Data Compression </strong>
+</summary>
+🚧 Under Construction 🚧
+</details>
+
+<details markdown="block">
+<summary markdown="span"> 🟢 <strong> Change- and Detail-Aware Adaptive Point Cloud Compression for Lifelong SLAM </strong>
+</summary>
+🚧 Under Construction 🚧
+</details>
+
 ## 🧮 Teaching Assistant
 
 <details markdown="block">
-<summary markdown="span"> 🟢 <strong> Advanced Robotics R7021E </strong> 
+<summary markdown="span"> 🟢 <strong> Advanced Robotics R7021E </strong>
 </summary>
 
 <em> Sep 2025 - Dec 2025 </em>
