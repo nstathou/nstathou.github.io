@@ -19,6 +19,8 @@ author_profile: true
 
 <em> Sep 2025 - Dec 2025 </em>
 
+<em> Teaching Assistant, RAI Group at Lulea University of Technology, Sweden </em>
+
 During my Ph.D., I also contributed to the design of a module within the new Advanced Robotics course. Building on foundational robotics knowledge, this course introduces students to the key components of full-scale robot autonomy, including modeling, control, perception, planning, localization and mapping, and sensor fusion. The lectures and labs are designed to complement each other, providing both theoretical depth and practical, experimental insight.
 Students work with a range of robotic platforms, such as: TurtleBot3, Crazyflie quadrotors, and Unitree quadrupeds, and conduct experiments using a motion-capture system in the Robotics Group’s flying arena at Luleå University of Technology. Laboratory assignments are implemented in MATLAB and Python, making extensive use of the Robotics Toolbox (a companion to Peter Corke’s textbook) and several open-source repositories from LTU and the wider robotics community.
 
@@ -35,6 +37,8 @@ Supervisor: [Prof. George Nikolakopoulos](https://scholar.google.com/citations?u
 </summary>
 
 <em> Sep 2024 - Dec 2024 / Sep 2025 - Dec 2025 </em>
+
+<em> Teaching Assistant, RAI Group at Lulea University of Technology, Sweden </em>
 
 During my Ph.D., I am serving (two semesters so far) as a Teaching Assistant for the Computer Vision & Image Processing course, an introductory course covering both foundational and modern concepts in vision. Topics include camera models, multi-view geometry, 3D reconstruction, low-level image processing (e.g., segmentation), high-level vision tasks (e.g., object detection), and practical frameworks and libraries for building real-world applications. The course emphasizes both the mathematical foundations of the methods and their implementation through hands-on projects.
 In addition to supervising and grading laboratory work, I co-designed the course projects and deliver two lectures on 3D perception.
