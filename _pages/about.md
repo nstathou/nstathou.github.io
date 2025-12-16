@@ -13,4 +13,26 @@ redirect_from:
 
 ## 🗞️ Latest News
 
-🚧 Under Construction 🚧
+<!-- 🚧 Under Construction 🚧 -->
+
+### --- 2025 ---
+
+<strong>[2025-11-24]</strong> Our article on keyframe sampling for large-scale SLAM has been <strong> accepted </strong> for publication in the <strong> IEEE Robotics and Automation Letters </strong> (RA-L) and will also be presented in the upcoming <strong> 2026 IEEE International Conference on Robotics and Automation </strong> (ICRA) in Vienna!! Code will be realesed by February 2026.   
+[IEEExplore](https://ieeexplore.ieee.org/document/11266938) \| [arXiv](https://arxiv.org/abs/2501.01791) \| [YouTube](https://www.youtube.com/watch?v=70CcaRCL-7g)
+
+<strong>[2025-11-20]</strong> I recently gave three lectures on SLAM for the [R7021E Advanced Robotics](https://www.ltu.se/en/education/syllabuses/course-syllabus?id=R7021E) course at LTU. The material includes detailed <strong> Jupyter notebooks </strong> and <strong> Python/pygame examples </strong> to make SLAM concepts accessible and hands-on. Check out the project here: [hello-slam](https://github.com/nstathou/hello-slam).
+
+
+<strong>[2025-10-17]</strong> Our article on scene graph-aware point cloud compression has been <strong> accepted </strong> for publication in the <strong> IEEE Robotics and Automation Letters </strong> (RA-L) and will also be presented in the upcoming <strong> 2026 IEEE International Conference on Robotics and Automation </strong> (ICRA) in Vienna!! Code will be realesed by January 2026.   
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/11206444) \| [arXiv](https://arxiv.org/abs/2510.08512) \| [YouTube](https://www.youtube.com/watch?v=MFKrhtmc3Tw)
+
+### --- 2024 ---
+
+<strong>[2024-11-20]</strong> Our project has been listed in <strong> IVA's 100 List </strong> of the Royal Swedish Academy of Engineering Sciences, as part of the current research with potential to create value!!   
+[IVA List](https://www.iva.se/en/what-iva-does/distinctions/ivas-100-lista-eng/) \| [Project](https://www.iva.se/en/what-iva-does/distinctions/ivas-100-lista-eng/ai-enabled-data-driven-change-detection/)
+
+<strong>[2024-10-14]</strong> We won the <strong>Best Paper Award</strong> in the <em>“Standing the Test of Time: Retrospective and Future of World Representations for Lifelong Robotics”</em> workshop at IROS'24!!   
+[Workshop](https://montrealrobotics.ca/test-of-time-workshop/papers) \| [Paper](https://montrealrobotics.ca/test-of-time-workshop/assets/pdf/papers/Does_Sample_Space_Matter__Preliminary_Results_on_Keyframe_Sampling_Optimization_for_LiDAR_based_Place_Recognition.pdf) \| [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7252173559718944768/)
+
+<strong>[2024-06-28]</strong> Our journal extension of <strong>FRAME</strong> has been accepted for publication in the <strong>IEEE Transactions of Field Robotics</strong> (T-FR). Luckily, it will be the first page of the first ever volume!!   
+[IEEExplore](https://ieeexplore.ieee.org/abstract/document/10576057) \| [arXiv](https://arxiv.org/abs/2404.18006)

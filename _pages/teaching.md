@@ -44,7 +44,7 @@ My contribution to the course included designing and delivering three lectures o
 
 Supervisor: [Prof. George Nikolakopoulos](https://scholar.google.com/citations?user=YcN4-ZAAAAAJ&hl=en)
 
-[RAI Group](https://www.ltu.se/en/research/research-subjects/robotics-and-ai) \| [Course Syllabus](https://www.ltu.se/en/education/syllabuses/course-syllabus?id=R7021E) \| [hello-slam]()
+[RAI Group](https://www.ltu.se/en/research/research-subjects/robotics-and-ai) \| [Course Syllabus](https://www.ltu.se/en/education/syllabuses/course-syllabus?id=R7021E) \| [hello-slam](https://github.com/nstathou/hello-slam)
 
 </details>
 
