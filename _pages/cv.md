@@ -11,7 +11,7 @@ redirect_from:
 
 ## 🎓 Education
 
-* Ph.D in Robotics and AI, Lulea University of Technology, 2022 - 2026 (expected)
+* Ph.D in Robotics and AI, Luleå University of Technology, 2022 - 2026 (expected)
 * M.S. in Electrical and Computer Engineering, University of Patras, 2020 - 2022
 * B.S. in Electrical and Computer Engineering, University of Patras, 2017 - 2020
 
