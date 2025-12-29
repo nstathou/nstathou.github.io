@@ -11,9 +11,11 @@ redirect_from:
 
 ## 🎓 Education
 
-* Ph.D in Robotics and AI, Luleå University of Technology, 2022 - 2026 (expected)
-* M.S. in Electrical and Computer Engineering, University of Patras, 2020 - 2022
-* B.S. in Electrical and Computer Engineering, University of Patras, 2017 - 2020
+* **Ph.D.** in Robotics and AI, Luleå University of Technology, 2022 - 2026 (expected)
+* **M.S.** in Electrical and Computer Engineering, University of Patras, 2020 - 2022
+  * Integrated Master (5 year program)
+  * Major in Signal, Systems and Automatic Control
+* **B.S.** in Electrical and Computer Engineering, University of Patras, 2017 - 2020
 
 ## 💼 Work experience
 
