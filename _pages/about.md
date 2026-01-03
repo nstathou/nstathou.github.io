@@ -13,7 +13,9 @@ redirect_from:
 
 ## 🗞️ Latest News
 
-<!-- 🚧 Under Construction 🚧 -->
+### --- 2026 ---
+
+<strong>[2026-01-02]</strong> The code and pretrained weights for the Scene Graph-Aware Deep Point Cloud Compression (SGA‑DPCC) are now available on the project's GitHub: [LTU-RAI/sga-dpcc](https://github.com/LTU-RAI/sga-dpcc).
 
 ### --- 2025 ---
 

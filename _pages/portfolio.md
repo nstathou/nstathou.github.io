@@ -38,7 +38,7 @@ author_profile: true
 [GitHub](https://github.com/LTU-RAI/opt-key) \| [IEEExplore](https://ieeexplore.ieee.org/document/11266938) \| [arXiv](https://arxiv.org/abs/2501.01791) \| [YouTube](https://www.youtube.com/watch?v=70CcaRCL-7g)
 
 
-## 🟠 Scene Graph-Aware Deep Point Cloud Compression
+## 🟢 Scene Graph-Aware Deep Point Cloud Compression
 
 ![RAL25 Pipeline](/images/dpcc-concept.drawio.png){: .align-right width="350px"}
 
