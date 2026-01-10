@@ -15,9 +15,9 @@ redirect_from:
 
 ### --- 2026 ---
 
-<strong>[2026-01-09]</strong> The code and example scripts of the Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM, are now available on the project's GitHub: [LTU-RAI/opt-key](https://github.com/LTU-RAI/opt-key).
+<strong>[2026-01-09]</strong> The code and example scripts of the Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM [J8], are now available on the project's GitHub: [LTU-RAI/opt-key](https://github.com/LTU-RAI/opt-key).
 
-<strong>[2026-01-02]</strong> The code and pretrained weights for the Scene Graph-Aware Deep Point Cloud Compression (SGA‑DPCC) are now available on the project's GitHub: [LTU-RAI/sga-dpcc](https://github.com/LTU-RAI/sga-dpcc).
+<strong>[2026-01-02]</strong> The code and pretrained weights for the Scene Graph-Aware Deep Point Cloud Compression (SGA‑DPCC) [J7] are now available on the project's GitHub: [LTU-RAI/sga-dpcc](https://github.com/LTU-RAI/sga-dpcc).
 
 ### --- 2025 ---
 
