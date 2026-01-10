@@ -12,6 +12,9 @@ author_profile: true
 <div class="wordwrap">You can also find my projects on my <a href="https://github.com/nstathou">GitHub</a> profile.</div>
 
 ---
+
+# Teaching
+
 ## 🟢 A brief intro to SLAM with code
 
 ![RAL25 Pipeline](/images/hello-slam.png){: .align-right width="350px"}
@@ -24,6 +27,7 @@ author_profile: true
 
 [GitHub](https://github.com/LTU-RAI/sga-dpcc) \| [IEEExplore](https://ieeexplore.ieee.org/abstract/document/11206444) \| [arXiv](https://arxiv.org/abs/2510.08512) \| [YouTube](https://www.youtube.com/watch?v=MFKrhtmc3Tw)
 
+# Research
 
 ## 🟠 A Minimal Subset Approach for Informed Keyframe Sampling
 
