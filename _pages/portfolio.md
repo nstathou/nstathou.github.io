@@ -27,6 +27,8 @@ author_profile: true
 
 [GitHub](https://github.com/LTU-RAI/sga-dpcc) \| [IEEExplore](https://ieeexplore.ieee.org/abstract/document/11206444) \| [arXiv](https://arxiv.org/abs/2510.08512) \| [YouTube](https://www.youtube.com/watch?v=MFKrhtmc3Tw)
 
+---
+
 # 📊 Research
 
 ## 🟠 A Minimal Subset Approach for Informed Keyframe Sampling
