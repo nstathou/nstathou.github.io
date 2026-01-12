@@ -46,7 +46,7 @@ author_profile: true
 
 ## 🟢 Scene Graph-Aware Deep Point Cloud Compression
 
-![RAL25 Pipeline](/images/dpcc-concept.drawio.png){: .align-right width="350px"}
+![RAL25 Pipeline](/images/dpcc-concept.png){: .align-right width="350px"}
 
 **Description:** Add your project description here. Explain what this project is about, what technologies were used, and what problems it solves.
 
