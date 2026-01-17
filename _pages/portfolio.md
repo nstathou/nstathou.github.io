@@ -31,7 +31,7 @@ author_profile: true
 
 # 📊 Research
 
-## 🟠 A Minimal Subset Approach for Informed Keyframe Sampling
+## 🟢 A Minimal Subset Approach for Informed Keyframe Sampling
 
 ![RAL25 Pipeline](/images/ral25_pipeline-1.png){: .align-right width="350px"}
 
