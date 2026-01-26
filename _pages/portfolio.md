@@ -5,7 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-<!-- 🚧 Under Construction 🚧 -->
+🚧 Under Construction 🚧
 
 🔴 --- On hold | 🟠 --- In progress | 🟢 --- Ready
 
