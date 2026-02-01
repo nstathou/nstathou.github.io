@@ -15,7 +15,7 @@ redirect_from:
 
 ### --- 2026 ---
 
-<strong>[2026-02-01]</strong> Glad to share that our two recent IEEE Robotics and Automation Letters (RA-L) as well as an IEEE Transactions on Field Robotics (T-FR) paper led by my colleague Niklas Dahlquist, will be presented at the 2026 IEEE International Conference on Robotics and Automation (ICRA) in Vienna!    
+<strong>[2026-02-01]</strong> Glad to share that our two recent <strong>IEEE Robotics and Automation Letters</strong> (RA-L) as well as an <strong>IEEE Transactions on Field Robotics</strong> (T-FR) paper led by my colleague Niklas Dahlquist, will be presented at the <strong>2026 IEEE International Conference on Robotics and Automation</strong> (ICRA) in Vienna!    
 [Read more](https://www.linkedin.com/feed/update/urn:li:activity:7423740422591643648/)
 
 <strong>[2026-01-09]</strong> The code and example scripts of the Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM [J8], are now available on the project's GitHub.   
