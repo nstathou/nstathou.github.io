@@ -11,6 +11,11 @@ export const homepage = {
       enabled: true
     },
     {
+      name: `LatestNews`,
+      variant: `default`,
+      enabled: true
+    },
+    {
       name: `Publications`,
       variant: `default`,
       enabled: true

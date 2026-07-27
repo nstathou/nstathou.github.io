@@ -19,6 +19,7 @@ import { homepage } from "@/data/homepage";
 const sectionTitleMap: Record<string, string> = {
   Introduction: "Introduction",
   Experience: "Experience",
+  LatestNews: "Latest News",
   Publications: "Featured Publications",
   Projects: "Featured Projects",
   Skills: "Skills",

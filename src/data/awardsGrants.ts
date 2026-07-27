@@ -19,7 +19,7 @@ export const awardsGrants = [
     category: `Grants`,
     role: `✈️ IEEE ICRA 2025 RAS Travel Support Grant`,
     organization: `IEEE Robotics and Automation Society · Travel support for IEEE ICRA 2025 (Atlanta, GA, USA)`,
-    date: `Mar 2025`,
+    date: `Feb 2025`,
     link: `https://ieeexplore.ieee.org/document/10576057?source=authoralert`,
     image: null
   },
