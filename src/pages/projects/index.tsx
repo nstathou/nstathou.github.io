@@ -15,12 +15,21 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { usePageTitle } from "@/hooks/use-pagetitle";
 import { repos } from "@/data/repos";
 
-const validSorts = ["stars", "updated", "created"] as const;
-type SortByType = (typeof validSorts)[number];
-
 const allTopics = Array.from(
   new Set(Object.values(repos).flatMap((repo) => repo.topics ?? [])),
 ).sort();
+
+function resolvePreviewImageUrl(url?: string | null) {
+  if (!url) return url;
+
+  // Convert site-root paths to the configured Vite base path (e.g. /webpage/ on GitHub Pages).
+  if (url.startsWith("/")) {
+    const base = import.meta.env.BASE_URL || "/";
+    return `${base.replace(/\/$/, "")}/${url.replace(/^\/+/, "")}`;
+  }
+
+  return url;
+}
 
 export default function ProjectsPage() {
   usePageTitle("Projects");
@@ -29,22 +38,14 @@ export default function ProjectsPage() {
   const navigate = useNavigate();
 
   const topic = searchParams.get("topic");
-  const sort = searchParams.get("sort");
 
   const topicFilter: string =
     topic && allTopics.includes(topic) ? topic : "all";
-  const sortBy: SortByType = validSorts.find((s) => s === sort) ?? "updated";
 
   const updateTopicFilter = (newTopic: string) => {
     const params = new URLSearchParams(searchParams);
     if (newTopic === "all") params.delete("topic");
     else params.set("topic", newTopic);
-    navigate({ search: params.toString() }, { replace: true });
-  };
-
-  const updateSortBy = (newSortBy: SortByType) => {
-    const params = new URLSearchParams(searchParams);
-    params.set("sort", newSortBy);
     navigate({ search: params.toString() }, { replace: true });
   };
 
@@ -55,24 +56,6 @@ export default function ProjectsPage() {
       const matchesTopic =
         topicFilter === "all" || topics.includes(topicFilter);
       return matchesTopic;
-    })
-    .sort((a, b) => {
-      const aData = repos[a];
-      const bData = repos[b];
-
-      if (sortBy === "stars") {
-        return (bData.stargazers_count ?? 0) - (aData.stargazers_count ?? 0);
-      } else if (sortBy === "created") {
-        return (
-          new Date(bData.created_at).getTime() -
-          new Date(aData.created_at).getTime()
-        );
-      } else {
-        return (
-          new Date(bData.pushed_at).getTime() -
-          new Date(aData.pushed_at).getTime()
-        );
-      }
     });
 
   return (
@@ -88,7 +71,6 @@ export default function ProjectsPage() {
             topicFilter={topicFilter}
             setTopicFilter={updateTopicFilter}
           />
-          <SortSelector sortBy={sortBy} setSortBy={updateSortBy} />
         </div>
 
         <Separator />
@@ -145,30 +127,6 @@ function TopicFilter({
   );
 }
 
-function SortSelector({
-  sortBy,
-  setSortBy,
-}: {
-  sortBy: SortByType;
-  setSortBy: (val: SortByType) => void;
-}) {
-  return (
-    <div className="flex items-center gap-2">
-      <label>Sort by:</label>
-      <Select value={sortBy} onValueChange={setSortBy}>
-        <SelectTrigger className="w-[160px] cursor-pointer">
-          <SelectValue placeholder="Sort by" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="updated">🕒 Last Updated</SelectItem>
-          <SelectItem value="created">📅 Created Time</SelectItem>
-          <SelectItem value="stars">⭐ Star Count</SelectItem>
-        </SelectContent>
-      </Select>
-    </div>
-  );
-}
-
 function ProjectCard({
   project_name,
   setTopicFilter,
@@ -187,10 +145,18 @@ function ProjectCard({
     language,
     stargazers_count,
     homepage,
+    featured,
   } = repo;
+  const previewImageUrl = resolvePreviewImageUrl(previewImage);
 
   return (
-    <Card className="rounded-md overflow-hidden gap-0 py-0 w-full">
+    <Card
+      className={
+        featured
+          ? "rounded-2xl overflow-hidden gap-0 py-0 w-full bg-amber-300/20 transition-none hover:bg-amber-300/28"
+          : "rounded-md overflow-hidden gap-0 py-0 w-full"
+      }
+    >
       <div className="flex flex-col lg:flex-row">
         <a
           href={html_url}
@@ -199,9 +165,9 @@ function ProjectCard({
           className="block"
         >
           <div className="aspect-3/2 w-full max-h-72 lg:max-w-75 lg:h-50 overflow-hidden">
-            {previewImage ? (
+            {previewImageUrl ? (
               <img
-                src={previewImage}
+                src={previewImageUrl}
                 alt={name || "Project image"}
                 className="w-full h-full object-cover"
                 loading="lazy"

@@ -1,8 +1,8 @@
 {
-  "name": "Showlit",
-  "repoUrl": "https://github.com/pm25/showlit",
-  "description": "A short description",
-  "author": "Your Name",
-  "repoName": "showlit",
-  "base": "/showlit/"
+  "name": "Nikolaos Stathoulopoulos",
+  "repoUrl": "https://nstathou.github.io/webpage",
+  "description": "Personal webpage",
+  "author": "Nikolaos Stathoulopoulos",
+  "repoName": "webpage",
+  "base": "/webpage/"
 }

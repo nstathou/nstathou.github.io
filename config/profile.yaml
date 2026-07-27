@@ -12,23 +12,35 @@
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
-  profileImage: "https://github.com/pm25.png"
+  name: "Nikolaos Stathoulopoulos"
+  headline: "Ph.D. candidate @ Luleå University of Technology, Sweden"
+  email: "niksta@ltu.se / nstathou@gmail.com"
+  location: "Gothenburg, Västra Götaland, Sweden"
+  profileImage: "/images/Nikolaos_Stathoulopoulos.jpg"
 
   links:
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
-      icon:
-        name: "FaLinkedin"
-        package: "react-icons/fa6"
-
     - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
+      url: "https://scholar.google.com/citations?user=a_aBwmMAAAAJ"
       icon:
         name: "FaGoogleScholar"
+        package: "react-icons/fa6"
+
+    - name: "Github"
+      url: "https://github.com/nstathou"
+      icon:
+        name: "FaGithub"
+        package: "react-icons/fa6"
+  
+    - name: "ORCID"
+      url: "https://orcid.org/0000-0002-0108-6286"
+      icon:
+        name: "SiOrcid"
+        package: "react-icons/si"
+    
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/nikos-stathoulopoulos/"
+      icon:
+        name: "FaLinkedin"
         package: "react-icons/fa6"
 
     - name: "Résumé"
@@ -37,64 +49,75 @@ profile:
         name: "FaRegIdBadge"
         package: "react-icons/fa6"
 
-    - name: "Github"
-      url: "https://github.com/[your-github]"
-      icon:
-        name: "FaGithub"
-        package: "react-icons/fa6"
-
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
-      icon:
-        name: "FaSquareFacebook"
-        package: "react-icons/fa6"
-
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
-    <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    Hi! I'm Nikolaos (<strong>Nikos</strong> for short) Stathoulopoulos and I am a <strong>Ph.D. 
+    candidate</strong> in the <a href="https://fieldrobotics.eu" target="_blank" rel="noopener noreferrer"><strong>Robotics & AI (RAI) Group</strong></a>, at 
+    <strong>Luleå University of Technology, Sweden</strong>. I am working at the 
+    intersection of <strong>localization, mapping,</strong> and <strong>3D perception.</strong> 
+    My research centers on multi-robot/multi-session SLAM and long-term map management, combining classical
+     and learning-based methods to build adaptive, efficient and reliable perception systems. Core topics include 
+     place recognition, loop closures, and back-end optimization for robust lifelong operation.<br/><br/>
+
+    I hold a Bachelor's with an integrated Master in Electrical and Computer Engineering from the <a href="https://www.ece.upatras.gr/index.php/en/" target="_blank" rel="noopener noreferrer"><strong>University of Patras, Greece</strong></a>.
+    During my current position as a Ph.D. student
+     I also serve as a Teaching Assistant for Advanced Robotics and Computer Vision & Image Processing.
+      I’m active in the <strong>IEEE Robotics & Automation Society (RAS)</strong> and the broader robotics community, 
+      with publications in <strong>ICRA, IROS, RA-L and T-FR</strong>. I’m always open to collaboration, code sharing, 
+      and brainstorming, feel free to <a href="mailto:niksta@ltu.se" target="_blank" rel="noopener noreferrer">reach me</a>.
 
 # # =====================================================
 # # 🎓 Education Section
 # # =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "Ph.D. candidate with the RAI Group"
+    school: "Luleå University of Technology, Sweden"
+    years: "Sep 2022 - Present"
+    groupUrl: "https://fieldrobotics.eu"
+    logo: "/images/ltu.png"
+    supervisor: "Prof. George Nikolakopoulos"
+    supervisorUrl: "https://scholar.google.com/citations?user=YcN4-ZAAAAAJ&hl=en&oi=ao"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
+  - degree: "M.Eng. in Electrical and Computer Engineering (ECE)"
+    school: "University of Patras, Greece"
+    years: "Aug 2020 - Aug 2022"
+    logo: "/images/upatras.png"
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
+  - degree: "B.S. in Electrical and Computer Engineering (ECE)"
+    school: "University of Patras, Greece"
+    years: "Oct 2017 - Aug 2020"
+    logo: "/images/upatras.png"
 
 # # =====================================================
 # # 💼 Work Experience Section
 # # =====================================================
 
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+  - title: "Co-Founder"
+    company: "SAPHAI AB"
+    groupUrl: "https://saphai.se"
+    years: "Oct 2023 - Present"
+    logo: "/images/saphai_big.webp"
+    logoDark: "/images/saphai_white_letters.png"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+  - title: "Teaching Assistant at RAI Group"
+    company: "Luleå University of Technology, Sweden"
+    groupUrl: "https://fieldrobotics.eu"
+    years: "Sep 2022 - Present"
+    logo: "/images/ltu.png"
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
+  - title: "Summer Research Intern at RAI Group"
+    company: "Luleå University of Technology, Sweden"
+    groupUrl: "https://fieldrobotics.eu"
+    years: "Jul 2022 - Jul 2022"
+    logo: "/images/ltu.png"
+
+  - title: "Teaching Assistant at EISLAB"
+    company: "Luleå University of Technology, Sweden"
+    groupUrl: "https://www.ltu.se/en/research/research-subjects/machine-learning"
+    years: "Mar 2022 - Jun 2022"
+    logo: "/images/ltu.png"
 
 # # =====================================================
 # # 🎤 Presentations / Talks Section
@@ -160,77 +183,148 @@ services:
 # # =====================================================
 
 skills:
-  Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
-
+  "Programming Languages":
     - name: "Python"
       logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-      proficiency: Experienced
+      proficiency: "Experienced"
       description: null
 
-    - name: "JavaScript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
+    - name: "MATLAB"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+      proficiency: "Working knowledge"
       description: null
 
-  Web:
-    - name: "React"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
+    - name: "C++"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+      proficiency: "Basic knowledge"
       description: null
 
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
-      proficiency: Fluent
+    - name: "C"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+      proficiency: "Basic knowledge"
       description: null
 
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
-
-  Machine Learning:
+  "ML, Vision & Geometry":
     - name: "PyTorch"
       logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
+      proficiency: "Experienced"
       description: null
 
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
+    - name: "Open3D"
+      logo: "https://raw.githubusercontent.com/isl-org/Open3D/main/docs/_static/open3d_logo.ico"
+      proficiency: "Experienced"
       description: null
 
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
-      proficiency: Fluent
+    - name: "OpenCV"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg"
+      proficiency: "Experienced"
       description: null
 
-  Research:
-    - name: "Machine Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
-      description: "General machine learning methods and applied research."
+    - name: "NumPy"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/Numpy.png"
+      proficiency: "Experienced"
+      description: null
 
-    - name: "Representation Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
+    - name: "PCL"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pcl_%28PointClouds_library%29_logo_with_text.png"
+      proficiency: "Experienced"
+      description: null
 
-  Language:
+    - name: "SciPy"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg"
+      proficiency: "Experienced"
+      description: null
+
+    - name: "GTSAM"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Georgia_Tech_logo_2021_Cropped.png"
+      proficiency: "Working knowledge"
+      description: null
+
+  "Robotics & Workflow":
+    - name: "ROS / ROS2"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Robot_Operating_System_logo.svg"
+      proficiency: "Experienced"
+      description: null
+
+    - name: "Linux"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
+      proficiency: "Daily use"
+      description: null
+
+    - name: "Git"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Git_Icon.svg"
+      proficiency: "Daily use"
+      description: null
+
+    - name: "Conda"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg"
+      proficiency: "Daily use"
+      description: null
+
+    - name: "Docker"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Docker-svgrepo-com.svg"
+      proficiency: "Basic knowledge"
+      description: null
+
+  Languages:
     - name: "English"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
-      description: "Professional working proficiency."
+      proficiency: "OLS C2 / Michigan Certificate of Lower English B2"
+      description: "Studying at PhD level and have been living abroad for 5+ years."
 
-    - name: "Taiwanese Hokkien"
+    - name: "Greek"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native fluency."
+      proficiency: "Native"
+      description: null
+
+# # =====================================================
+# # 🏆 Awards & Grants Section
+# # =====================================================
+
+awardsGrants:
+  - category: "Awards"
+    role: "🏆 IVA's 100 List — Current Research with Potential to Create Value"
+    organization: >-
+      Royal Swedish Academy of Engineering Sciences (IVA) · Project:
+      AI-enabled Data-Driven Change Detection
+    date: "Nov 2024"
+    link: "https://www.iva.se/en/what-iva-does/distinctions/ivas-100-lista-eng/ai-enabled-data-driven-change-detection/"
+    image: null
+
+  - category: "Awards"
+    role: "🥇 Best Paper Award — Standing the Test of Time Workshop @ IEEE IROS 2024"
+    organization: >-
+      <strong>Nikolaos Stathoulopoulos</strong>, Vidya Sumathy, Christoforos
+      Kanellakis and George Nikolakopoulos · <i>Does Sample Space Matter?
+      Preliminary Results on Keyframe Sampling Optimization for LiDAR-based
+      Place Recognition</i>
+    date: "Oct 2024"
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7252173559718944768/"
+    image: null
+
+  - category: "Grants"
+    role: "✈️ IEEE ICRA 2025 RAS Travel Support Grant"
+    organization: >-
+      IEEE Robotics and Automation Society · Travel support for IEEE ICRA 2025
+      (Atlanta, GA, USA) 
+    date: "Mar 2025"
+    link: "https://ieeexplore.ieee.org/document/10576057?source=authoralert"
+    image: null
+
+  - category: "Grants"
+    role: "🧳 Wallenberg Foundation's Jubilee Grant"
+    organization: >-
+      Knut and Alice Wallenberg Foundation · Travel support for IEEE ICRA 2024
+      (Yokohama, Japan)
+    date: "Feb 2024"
+    link: "https://www.ltu.se/en/about-the-university/grants-prizes-and-research-funding/scholarships-an-prizes-for-employees"
+    image: null
+
+  - category: "Grants"
+    role: "🏦 Wallenberg Launchpad (WALP) Phase 2 — AI-enabled Data-Driven Change Detection"
+    organization: >-
+      WASP / Knut and Alice Wallenberg Foundation · Phase 2 awarded after
+      successful pitch
+    date: "Nov 2023"
+    link: "https://wasp-sweden.org/opportunities/wallenberg-launchpad-walp/"
+    image: null

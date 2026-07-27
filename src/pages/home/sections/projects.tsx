@@ -12,12 +12,24 @@ import { Button } from "@/components/ui/button";
 
 import { featuredReposArray } from "@/data/repos";
 
+function resolvePreviewImageUrl(url?: string | null) {
+  if (!url) return url;
+
+  // Convert site-root paths to the configured Vite base path (e.g. /webpage/ on GitHub Pages).
+  if (url.startsWith("/")) {
+    const base = import.meta.env.BASE_URL || "/";
+    return `${base.replace(/\/$/, "")}/${url.replace(/^\/+/, "")}`;
+  }
+
+  return url;
+}
+
 export default function ProjectsSection() {
   return (
     <div className="space-y-6">
       <div className="flex flex-row justify-center items-center gap-2 text-plus font-semibold">
         <FaWrench />
-        Projects
+        Featured Projects
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -30,7 +42,7 @@ export default function ProjectsSection() {
         <div className="absolute right-0">
           <Button
             asChild
-            variant="ghost"
+            variant="outline"
             size="sm"
             className="gap-1 text-muted-foreground"
           >
@@ -62,6 +74,8 @@ function ProjectCard({
     );
   }
 
+  const previewImageUrl = resolvePreviewImageUrl(repoData.previewImage);
+
   return (
     <Card className="rounded-md overflow-hidden gap-0 py-0 w-full flex flex-col h-full">
       <div className="flex flex-col flex-grow">
@@ -72,9 +86,9 @@ function ProjectCard({
           className="block"
         >
           <div className="aspect-3/2 w-full overflow-hidden">
-            {repoData.previewImage ? (
+            {previewImageUrl ? (
               <img
-                src={repoData.previewImage}
+                src={previewImageUrl}
                 alt={repoData.name || "Project image"}
                 className="w-full h-full object-cover"
                 style={{ overflowClipMargin: "unset" }}

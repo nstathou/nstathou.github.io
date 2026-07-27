@@ -14,8 +14,40 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 import { sidebar } from "@/data/sidebar";
+import { homepage } from "@/data/homepage";
+
+const sectionTitleMap: Record<string, string> = {
+  Introduction: "Introduction",
+  Experience: "Experience",
+  Publications: "Featured Publications",
+  Projects: "Featured Projects",
+  Skills: "Skills",
+  AwardsGrants: "Awards & Grants",
+  Talks: "Talks",
+  Services: "Services",
+};
+
+const toAnchorId = (name: string) => name.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const aboutSections = homepage.sections
+    .filter((section) => section.enabled)
+    .map((section) => ({
+      title: sectionTitleMap[section.name] ?? section.name,
+      url: `/?section=${toAnchorId(section.name)}`,
+    }));
+
+  const navItems = sidebar.sections.map((section) => {
+    if (section.title !== "About Me") {
+      return section;
+    }
+
+    return {
+      ...section,
+      items: aboutSections,
+    };
+  });
+
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
@@ -40,7 +72,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <Separator orientation="horizontal" />
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={sidebar.sections} />
+        <NavMain items={navItems} />
       </SidebarContent>
       <SidebarFooter>
         <DarkModeToggleButton />

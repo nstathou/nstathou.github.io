@@ -1,39 +1,350 @@
 import type { PublicationsType } from "@/types/publications";
 
 export const publications: PublicationsType = {
-  authorName: `Pin-Yen Huang`,
+  authorName: `Nikolaos Stathoulopoulos`,
   items: [
     {
-      title: `[Publication Title]`,
-      authors: `[Author Names]`,
-      year: `[Year]`,
-      venue: `[Conference / Journal Name]`,
-      link: `https://example.com/your-publication-link`,
-      featured: true,
+      title: `InLiER: Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization`,
+      authors: `Nikolaos Stathoulopoulos and George Nikolakopoulos`,
+      year: 2026,
+      venue: `IEEE Robotics and Automation Letters (RA-L), 2026`,
+      comment: `🔜 Coming soon`,
+      link: `https://github.com/LTU-RAI/InLiER`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/InLiER`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2607.16862`
+        }
+      ],
+      featured: true
     },
     {
-      title: `RankUp: Boosting Semi-Supervised Regression with an Auxiliary Ranking Classifier`,
-      authors: `Pin-Yen Huang, Szu-Wei Fu, Yu Tsao`,
+      title: `A Minimal Subset Approach for Informed Keyframe Sampling in Large-Scale SLAM`,
+      authors: `Nikolaos Stathoulopoulos, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2026,
+      venue: `IEEE Robotics and Automation Letters (RA-L), vol. 11, no. 1, pp. 738-745, 2026`,
+      comment: `📢 Presented at 🎻 ICRA'26`,
+      link: `https://github.com/LTU-RAI/opt-key`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/opt-key`
+        },
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/document/11266938`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2501.01791`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=70CcaRCL-7g`
+        }
+      ],
+      featured: true
+    },
+    {
+      title: `Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression`,
+      authors: `Nikolaos Stathoulopoulos, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2025,
+      venue: `IEEE Robotics and Automation Letters (RA-L), vol. 10, no. 12, pp. 12477-12484, 2025`,
+      comment: `📢 Presented at 🎻 ICRA'26`,
+      link: `https://github.com/LTU-RAI/sga-dpcc`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/sga-dpcc`
+        },
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/11206444`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2510.08512`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=MFKrhtmc3Tw`
+        }
+      ],
+      featured: true
+    },
+    {
+      title: `Real-time Point Cloud Data Transmission via L4S for 5G-Edge-Assisted Robotics`,
+      authors: `Gerasimos Damigos, Nikolaos Stathoulopoulos, Achilleas Santi Seisa, Sara Sandberg and George Nikolakopoulos`,
+      year: 2025,
+      venue: `2026 IFAC World Congress, Busan, South Korea, 2025`,
+      comment: `🌐 With Ericsson`,
+      link: `https://arxiv.org/abs/2511.15677`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/l4s_lidar`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2511.15677`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `Deployment of an Aerial Multi-agent System for Automated Task Execution in Large-scale Underground Mining Environments`,
+      authors: `Niklas Dahlquist, Samuel Nordström, Nikolaos Stathoulopoulos, Björn Lindqvist, Akshit Saradagi and George Nikolakopoulos`,
+      year: 2025,
+      venue: `IEEE Transactions on Field Robotics (T-FR), vol. 2, pp. 2997-1101, 2025`,
+      comment: `📢 Presented at 🎻 ICRA'26`,
+      link: `https://ieeexplore.ieee.org/abstract/document/11037947`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/11037947`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2501.10262`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=4eyRCCRAEYg`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `Safety Inspections and Gas Monitoring in Hazardous Mining Areas After Blasting Using Autonomous UAVs`,
+      authors: `Samuel Nordström, Nikolaos Stathoulopoulos, Niklas Dahlquist, Björn Lindqvist, Ilias Tevetzidis, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2025,
+      venue: `Journal of Field Robotics (JFR), vol. 42, pp. 2076-2094, 2025`,
+      link: `https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22500`,
+      links: [
+        {
+          label: `Wiley Online Library`,
+          url: `https://onlinelibrary.wiley.com/doi/full/10.1002/rob.22500`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=jzg-KsWKPp8`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `FRAME: A Modular Framework for Autonomous Map Merging: Advancements in the Field`,
+      authors: `Nikolaos Stathoulopoulos, Björn Lindqvist, Anton Koval, Ali-Akbar Agha-Mohammadi and George Nikolakopoulos`,
       year: 2024,
-      venue: `38th Conference on Neural Information Processing Systems (NeurIPS 2024)`,
-      link: `https://arxiv.org/abs/2410.22124`,
-      featured: true,
+      venue: `IEEE Transactions on Field Robotics (T-FR), vol. 1, pp. 1-26, 2024`,
+      comment: `📢 Presented at ⚖️ ICRA'25`,
+      link: `https://github.com/LTU-RAI/FRAME`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/FRAME`
+        },
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/10576057`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2404.18006`
+        }
+      ],
+      featured: true
     },
     {
-      title: `An Enhanced Mondrian Anonymization Model based on Self-Organizing Map`,
-      authors: `Peter Shaojui Wang, Pin-Yen Huang, Yu-An Tsai, Raylin Tso`,
+      title: `Communication-Aware Control of Large Data Transmissions via Centralized Cognition and 5G Networks for Multi-Robot Map Merging`,
+      authors: `Gerasimos Damigos, Nikolaos Stathoulopoulos, Anton Koval, Tore Lindgren and George Nikolakopoulos`,
+      year: 2024,
+      venue: `Journal of Intelligent & Robotic Systems (JIRS), Vol. 110, Art. no. 22, 2024`,
+      comment: `🌐 With Ericsson`,
+      link: `https://link.springer.com/article/10.1007/s10846-023-02045-4`,
+      featured: false
+    },
+    {
+      title: `A Hierarchical Graph-Based Terrain-Aware Autonomous Navigation Approach for Complementary Multimodal Ground-Aerial Exploration`,
+      authors: `Akash Patel, Mario Alberto Valdes Saucedo, Nikolaos Stathoulopoulos, Viswa Narayanan Sankaranarayanan, Ilias Tevetzidis, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2025,
+      venue: `2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, pp. 15879-15885, 2025`,
+      comment: `⚖️ ICRA'25`,
+      link: `https://ieeexplore-ieee-org.proxy.lib.ltu.se/document/11128079`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore-ieee-org.proxy.lib.ltu.se/document/11128079`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2505.14859`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `Leveraging Computation of Expectation Models for Commonsense Affordance Estimation on 3D Scene Graphs`,
+      authors: `Mario Alberto Valdes Saucedo, Nikolaos Stathoulopoulos, Akash Patel, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2024,
+      venue: `2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, pp. 9797-9802, 2024`,
+      comment: `🐫 IROS'24`,
+      link: `https://ieeexplore.ieee.org/abstract/document/10802560`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/10802560`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2409.05392`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=BDCMVx2GiQE`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `Does Sample Space Matter? Preliminary Results on Keyframe Sampling Optimization for LiDAR-based Place Recognition`,
+      authors: `Nikolaos Stathoulopoulos, Vidya Sumanthy, Christoforos Kanellakis and George Nikolakopoulos`,
+      year: 2024,
+      venue: `Standing the Test of Time Workshop: Retrospective and Future of World Representations for Lifelong Robotics at 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Abu Dhabi, United Arab Emirates, 2024`,
+      comment: `🏅 Best Paper Award`,
+      link: `https://montrealrobotics.ca/test-of-time-workshop/assets/pdf/papers/Does_Sample_Space_Matter__Preliminary_Results_on_Keyframe_Sampling_Optimization_for_LiDAR_based_Place_Recognition.pdf`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/opt-key`
+        },
+        {
+          label: `Workshop`,
+          url: `https://montrealrobotics.ca/test-of-time-workshop/`
+        }
+      ],
+      featured: true
+    },
+    {
+      title: `RecNet: An Invertible Point Cloud Encoding through Range Image Embeddings for Multi-Robot Map Sharing and Reconstruction`,
+      authors: `Nikolaos Stathoulopoulos, Mario Alberto Valdes Saucedo, Anton Koval and George Nikolakopoulos`,
+      year: 2024,
+      venue: `2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, pp. 4883-4889, 2024`,
+      comment: `⛩️ ICRA'24`,
+      link: `https://ieeexplore.ieee.org/document/10611602`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/document/10611602`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2402.02192`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=f9BnK34XkuQ`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `3DEG: Data-driven Descriptor Extraction for Global Re-localization in Subterranean Environments`,
+      authors: `Nikolaos Stathoulopoulos, Anton Koval and George Nikolakopoulos`,
+      year: 2024,
+      venue: `Expert Systems with Applications (ESWA), vol. 237(B), Art. no. 121508, 2024`,
+      link: `https://www.sciencedirect.com/science/article/pii/S0957417423020109`,
+      links: [
+        {
+          label: `Elsevier`,
+          url: `https://www.sciencedirect.com/science/article/pii/S0957417423020109`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2210.07285`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `A Comparative Field Study of Global Pose Estimation Algorithms in Subterranean Environments`,
+      authors: `Nikolaos Stathoulopoulos, Anton Koval and George Nikolakopoulos`,
+      year: 2024,
+      venue: `International Journal of Control, Automation and Systems (IJCAS), Vol. 22, pp. 690-704. 2024`,
+      link: `https://link.springer.com/article/10.1007/s12555-023-0026-2#citeas`,
+      featured: false
+    },
+    {
+      title: `Redundant and Loosely Coupled LiDAR-Wi-Fi Integration for Robust Global Localization in Autonomous Mobile Robotics`,
+      authors: `Nikolaos Stathoulopoulos, Emanuele Pagliari, Luca Davoli and George Nikolakopoulos`,
+      year: 2023,
+      venue: `2023 21st International Conference on Advanced Robotics (ICAR), Abu Dhabi, United Arab Emirates, pp. 121-127, 2023`,
+      link: `https://ieeexplore.ieee.org/abstract/document/10406402`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/10406402`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2310.06384`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `Irregular Change Detection in Sparse Bi-Temporal Point Clouds Using Learned Place Recognition Descriptors and Point-to-Voxel Comparison`,
+      authors: `Nikolaos Stathoulopoulos, Anton Koval and George Nikolakopoulos`,
+      year: 2023,
+      venue: `2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, pp. 8077-8083, 2023`,
+      comment: `🚘 IROS'23`,
+      link: `https://ieeexplore.ieee.org/abstract/document/10342248`,
+      links: [
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/abstract/document/10342248`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2306.15416`
+        }
+      ],
+      featured: false
+    },
+    {
+      title: `FRAME: Fast and Robust Autonomous 3D Point Cloud Map-Merging for Egocentric Multi-Robot Exploration`,
+      authors: `Nikolaos Stathoulopoulos, Anton Koval, Ali-Akbar Agha-Mohammadi and George Nikolakopoulos`,
+      year: 2023,
+      venue: `2023 IEEE International Conference on Robotics and Automation (ICRA), London, United Kingdom, pp. 3483-3489, 2023`,
+      comment: `✨ First PhD publication | 💂 ICRA'23`,
+      link: `https://github.com/LTU-RAI/FRAME`,
+      links: [
+        {
+          label: `GitHub`,
+          url: `https://github.com/LTU-RAI/FRAME`
+        },
+        {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/document/10160771`
+        },
+        {
+          label: `arXiv`,
+          url: `https://arxiv.org/abs/2301.09213`
+        }
+      ],
+      featured: true
+    },
+    {
+      title: `School Hackerspaces: Supporting Informatics in Secondary Education`,
+      authors: `Dimitris Dimitropoulos, Nikolaos Stathoulopoulos, Eleni Rompola et al.`,
       year: 2020,
-      venue: `15th Asia Joint Conference on Information Security (AsiaJCIS 2020)`,
-      link: `https://ieeexplore.ieee.org/abstract/document/9194139`,
-      featured: true,
-    },
-    {
-      title: `[Publication Title]`,
-      authors: `[Author Names]`,
-      year: `[Year]`,
-      venue: `[Conference / Journal Name]`,
-      link: `https://example.com/your-publication-link`,
-      featured: false,
-    },
-  ],
+      venue: `12th Conference on Informatics in Education (CIE), pp.88-05, 2020`,
+      link: `http://events.di.ionio.gr/cie/images/documents20/CIE2020_OnLineProceedings/8.CIE2020_200.020_Dhmh_Final_p88-95.pdf`,
+      featured: false
+    }
+  ]
 };

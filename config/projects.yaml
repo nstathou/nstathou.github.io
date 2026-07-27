@@ -7,6 +7,8 @@
 #    (e.g., from: github.com/<your-username>/<repo-name>)
 #
 # ✔ The `displayName` field controls how the project name appears on the website.
+# ✔ Set `previewImage` to `repo` to use the repository social preview image automatically.
+# ✔ Set `previewImage` to `repo:<path/in/repo>` to use a specific image file from that repository.
 #
 # ✔ Use the `featured` field to control which projects appear on the homepage.
 #    - featured: true  → shown on the homepage
@@ -15,37 +17,27 @@
 
 projects:
   items:
-    - id: "example-project" # name of your GitHub repository (from: github.com/<your-username>/<repo-name>)
-      displayName: "[Project Name]" # name that will be displayed on the website
-      previewImage: https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg
+    - id: "LTU-RAI/InLiER" # name of your GitHub repository (from: github.com/<your-username>/<repo-name>)
+      displayName: "InLiER"
+      previewImage: /images/helipr.gif
       featured: true
 
-    - id: "showlit"
-      displayName: "Showlit"
-      previewImage: https://pm25.github.io/showlit/images/full_logo.png
+    - id: "LTU-RAI/opt-key" # name of your GitHub repository (from: github.com/<your-username>/<repo-name>)
+      displayName: "opt-key"
+      previewImage: /images/kitti_00_msa_example.gif
       featured: true
 
-    - id: "Semi-Supervised-Regression"
-      displayName: "Semi-Supervised Regression"
-      previewImage: https://pm25.github.io/research-figures/rankup/figures/rankup-illustration.png
+    - id: "LTU-RAI/sga-dpcc" # name of your GitHub repository (from: github.com/<your-username>/<repo-name>)
+      displayName: "sga-dpcc"
+      previewImage: /images/decompressed.gif
+      featured: false
+    
+    - id: "nstathou/hello-slam" # full repository id (owner/repo)
+      displayName: "hello-slam" # name that will be displayed on the website
+      previewImage: /images/particle_filter.gif # path to the preview image (can be a local file or a URL)
       featured: true
-
-    - id: "SimplePlus-BeamerTheme"
-      displayName: "SimplePlus Beamer Theme"
-      previewImage: https://raw.githubusercontent.com/pm25/simpleplus-beamerTheme/master/preview/slide-1.webp
-      featured: true
-
-    - id: "SimpleDarkBlue-BeamerTheme"
-      displayName: "SimpleDarkBlue Beamer Theme"
-      previewImage: https://raw.githubusercontent.com/pm25/simpledarkblue-beamertheme/master/preview/slide-1.webp
-      featured: true
-
-    - id: "pm25.github.io"
-      displayName: "pm25.github.io"
-      previewImage: null
-      featured: true
-
-    - id: "flappy-bird"
-      displayName: "Flappy Bird"
-      previewImage: null
+    
+    - id: "LTU-RAI/FRAME" # name of your GitHub repository (from: github.com/<your-username>/<repo-name>)
+      displayName: "FRAME"
+      previewImage: /images/jfr23_overlapping.drawio.png
       featured: false

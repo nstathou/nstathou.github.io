@@ -4,7 +4,7 @@
 # =====================================================
 
 site:
-  name: "Showlit"
-  repoUrl: "https://github.com/pm25/showlit"
-  description: "A short description"
-  author: "Your Name"
+  name: "Nikolaos Stathoulopoulos" # Your name or the name of your website
+  repoUrl: "https://nstathou.github.io/webpage"
+  description: "Personal webpage"
+  author: "Nikolaos Stathoulopoulos"

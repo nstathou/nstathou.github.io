@@ -1,38 +1,28 @@
-import { LuUser, LuWrench, LuLibraryBig, LuNewspaper, LuClapperboard, LuMusic } from "react-icons/lu";
+import { LuUser, LuWrench, LuLibraryBig, LuNewspaper } from "react-icons/lu";
 
 export const sidebar = {
-  userName: `[Your Name]`,
-  profileImage: `https://github.com/shadcn.png`,
+  userName: `Nikolaos Stathoulopoulos`,
+  profileImage: `/webpage/images/Nikolaos_Stathoulopoulos_zoomed.jpg`,
   sections: [
     {
       title: `About Me`,
       url: ``,
-      icon: LuUser,
+      icon: LuUser
     },
     {
       title: `Projects`,
       url: `projects`,
-      icon: LuWrench,
+      icon: LuWrench
     },
     {
       title: `Publications`,
       url: `publications`,
-      icon: LuLibraryBig,
+      icon: LuLibraryBig
     },
     {
       title: `Articles`,
       url: `articles`,
-      icon: LuNewspaper,
-    },
-    {
-      title: `Movies`,
-      url: `movies`,
-      icon: LuClapperboard,
-    },
-    {
-      title: `Music`,
-      url: `music`,
-      icon: LuMusic,
-    },
-  ],
+      icon: LuNewspaper
+    }
+  ]
 };

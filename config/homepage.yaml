@@ -28,9 +28,13 @@ homepage:
       variant: default
       enabled: true
 
-    - name: Talks
+    - name: AwardsGrants
       variant: default # default | card
       enabled: true
+
+    - name: Talks
+      variant: default # default | card
+      enabled: false
 
     - name: Services
       variant: default # default | card
