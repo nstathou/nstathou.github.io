@@ -22,7 +22,7 @@ const allTags = Array.from(
 ).sort();
 
 export default function ArticlesPage() {
-  usePageTitle("Articles");
+  usePageTitle("Presentations");
 
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -78,7 +78,7 @@ export default function ArticlesPage() {
       <div className="w-full max-w-6xl space-y-10">
         <div className="flex flex-row justify-center items-center gap-4 text-4xl font-semibold">
           <FaNewspaper />
-          Articles
+          Presentations
         </div>
 
         <div className="flex justify-between flex-wrap gap-2 items-center mx-2 sm:mx-6 my-1 relative -top-2">

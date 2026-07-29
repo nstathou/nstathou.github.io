@@ -1,22 +1,8 @@
 {
-    "manual-setup": {
-        "path": "public/articles/manual-setup/manual-setup.md",
-        "title": "Manual Setup Guide – Showlit",
-        "created_at": "2025-11-24T14:00:00",
-        "summary": "Step-by-step guide for local development and manual deployment of the Showlit template.",
-        "draft": false,
-        "tags": [
-            "setup",
-            "manual",
-            "showlit"
-        ],
-        "updated_at": "2025-11-25T00:56:07.838Z",
-        "hash": "de5e873ee578278474b3b202aa69a7e0d0fd90b145a5c6e2be2a1285cef8aeae"
-    },
     "quick-setup": {
         "path": "public/articles/quick-setup/quick-setup.md",
         "title": "Quick Setup Guide – Showlit",
-        "created_at": "2025-11-24T14:00:00",
+        "created_at": "2026-07-29T23:01:58.394Z",
         "summary": "Step-by-step guide to quickly set up your Showlit personal website without local development.",
         "draft": false,
         "tags": [
@@ -24,8 +10,22 @@
             "quickstart",
             "showlit"
         ],
-        "updated_at": "2025-11-25T00:56:07.841Z",
+        "updated_at": "2026-07-29T23:01:58.394Z",
         "hash": "19c0fe9c22c3475769cf8055edc78d9330394a8899011aa6934a2c00c6d678d1"
+    },
+    "manual-setup": {
+        "path": "public/articles/manual-setup/manual-setup.md",
+        "title": "Manual Setup Guide – Showlit",
+        "created_at": "2026-07-29T23:01:58.385Z",
+        "summary": "Step-by-step guide for local development and manual deployment of the Showlit template.",
+        "draft": false,
+        "tags": [
+            "setup",
+            "manual",
+            "showlit"
+        ],
+        "updated_at": "2026-07-29T23:01:58.385Z",
+        "hash": "de5e873ee578278474b3b202aa69a7e0d0fd90b145a5c6e2be2a1285cef8aeae"
     },
     "template": {
         "path": "public/articles/template/template.md",

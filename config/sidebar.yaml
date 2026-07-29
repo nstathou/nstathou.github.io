@@ -27,7 +27,7 @@ sidebar:
         name: LuLibraryBig
         package: "react-icons/lu"
 
-    - title: Articles
+    - title: Presentations
       url: "articles"
       icon:
         name: LuNewspaper

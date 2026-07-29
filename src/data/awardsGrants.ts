@@ -17,7 +17,7 @@ export const awardsGrants = [
   },
   {
     category: `Grants`,
-    role: `✈️ IEEE ICRA 2025 RAS Travel Support Grant`,
+    role: `IEEE ICRA 2025 RAS Travel Support Grant`,
     organization: `IEEE Robotics and Automation Society · Travel support for IEEE ICRA 2025 (Atlanta, GA, USA)`,
     date: `Feb 2025`,
     link: `https://ieeexplore.ieee.org/document/10576057?source=authoralert`,
@@ -25,7 +25,7 @@ export const awardsGrants = [
   },
   {
     category: `Grants`,
-    role: `🧳 Wallenberg Foundation's Jubilee Grant`,
+    role: `Wallenberg Foundation's Jubilee Grant`,
     organization: `Knut and Alice Wallenberg Foundation · Travel support for IEEE ICRA 2024 (Yokohama, Japan)`,
     date: `Feb 2024`,
     link: `https://www.ltu.se/en/about-the-university/grants-prizes-and-research-funding/scholarships-an-prizes-for-employees`,
@@ -33,7 +33,7 @@ export const awardsGrants = [
   },
   {
     category: `Grants`,
-    role: `🏦 Wallenberg Launchpad (WALP) Phase 2 — AI-enabled Data-Driven Change Detection`,
+    role: `Wallenberg Launchpad (WALP) Phase 2 — AI-enabled Data-Driven Change Detection`,
     organization: `WASP / Knut and Alice Wallenberg Foundation · Phase 2 awarded after successful pitch`,
     date: `Nov 2023`,
     link: `https://wasp-sweden.org/opportunities/wallenberg-launchpad-walp/`,

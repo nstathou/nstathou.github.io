@@ -20,7 +20,7 @@ export const sidebar = {
       icon: LuLibraryBig
     },
     {
-      title: `Articles`,
+      title: `Presentations`,
       url: `articles`,
       icon: LuNewspaper
     }
