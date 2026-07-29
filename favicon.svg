@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Trajectory favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <g transform="translate(32 34) scale(1.08) translate(-32 -32)">
+  <path d="M15 42L24 34L34 37L46 26" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15 26L24 18L34 21L46 10" fill="none" stroke="#60a5fa" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15 42L15 26" stroke="#16a34a" stroke-width="2" stroke-linecap="round" />
+  <path d="M24 34L24 18" stroke="#16a34a" stroke-width="2" stroke-linecap="round" />
+  <path d="M34 37L34 21" stroke="#16a34a" stroke-width="2" stroke-linecap="round" />
+  <path d="M46 26L46 10" stroke="#16a34a" stroke-width="2" stroke-linecap="round" />
+  <circle cx="15" cy="42" r="2.1" fill="#2563eb" />
+  <circle cx="24" cy="34" r="2.1" fill="#2563eb" />
+  <circle cx="34" cy="37" r="2.1" fill="#2563eb" />
+  <circle cx="46" cy="26" r="2.1" fill="#2563eb" />
+  <circle cx="15" cy="26" r="1.9" fill="#60a5fa" />
+  <circle cx="24" cy="18" r="1.9" fill="#60a5fa" />
+  <circle cx="34" cy="21" r="1.9" fill="#60a5fa" />
+  <circle cx="46" cy="10" r="1.9" fill="#60a5fa" />
+  </g>
+</svg>
