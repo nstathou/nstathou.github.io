@@ -29,8 +29,8 @@ export const profile = {
       icon: FaLinkedin
     },
     {
-      name: `Résumé`,
-      url: `/webpage/pdf/sample-resume.pdf`,
+      name: `CV`,
+      url: `/webpage/pdf/cv.pdf`,
       icon: FaRegIdBadge
     }
   ],

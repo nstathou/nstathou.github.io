@@ -43,8 +43,8 @@ profile:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Résumé"
-      url: "/pdf/sample-resume.pdf"
+    - name: "CV"
+      url: "/pdf/cv.pdf"
       icon:
         name: "FaRegIdBadge"
         package: "react-icons/fa6"
