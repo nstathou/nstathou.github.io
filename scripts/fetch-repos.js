@@ -25,6 +25,61 @@ const outputPath = path.join(
   "repos.json",
 );
 
+// Fields the GitHub API owns. When a request degrades to the HTML fallback (or
+// fails outright) these come back null/empty; in that case keep whatever the
+// last successful run wrote, so a rate-limited build never regresses the site
+// to "Unknown" language and zero stars.
+const PRESERVED_FIELDS = [
+  "description",
+  "stargazers_count",
+  "topics",
+  "language",
+  "homepage",
+  "created_at",
+  "updated_at",
+  "pushed_at",
+];
+
+function loadPreviousRepos() {
+  try {
+    return JSON.parse(fs.readFileSync(outputPath, "utf-8"));
+  } catch {
+    return {};
+  }
+}
+
+function isMissing(value) {
+  return (
+    value === null ||
+    value === undefined ||
+    (Array.isArray(value) && value.length === 0)
+  );
+}
+
+function preservePreviousValues(merged, previous, projectsDict) {
+  for (const [key, entry] of Object.entries(merged)) {
+    const prev = previous[key];
+    if (!prev) continue;
+
+    // An explicit value in config/projects.yaml always wins over history.
+    const override = projectsDict[key] ?? {};
+
+    for (const field of PRESERVED_FIELDS) {
+      if (field in override) continue;
+
+      // A star count of 0 is what the config-only fallback entry carries, so
+      // treat it as missing whenever history knows a real count.
+      const missing =
+        isMissing(entry[field]) ||
+        (field === "stargazers_count" && entry[field] === 0);
+
+      if (missing && !isMissing(prev[field])) {
+        entry[field] = prev[field];
+      }
+    }
+  }
+}
+
 function getRepoPreviewImage(fullName) {
   return `https://opengraph.githubassets.com/1/${fullName}`;
 }
@@ -166,6 +221,9 @@ async function fetchRepoByHtml(fullName) {
         .filter((topic) => typeof topic === "string")
     : [];
 
+  // The repo landing page lazy-loads the language bar, so `language` is never
+  // available here. Leave the fields this source cannot know as null so the
+  // previous good values from repos.json are preserved instead of overwritten.
   return {
     name: repoCore?.name ?? getRepoNameFromId(fullName),
     full_name: fullName,
@@ -179,8 +237,8 @@ async function fetchRepoByHtml(fullName) {
     homepage: "",
     html_url: `https://github.com/${fullName}`,
     created_at: repoCore?.createdAt ?? null,
-    updated_at: repoCore?.createdAt ?? null,
-    pushed_at: repoCore?.createdAt ?? null,
+    updated_at: null,
+    pushed_at: null,
     default_branch: repoCore?.defaultBranch ?? "main",
     fork: repoCore?.isFork ?? false,
     private: repoCore?.private ?? false,
@@ -248,6 +306,12 @@ async function fetchAllRepos() {
 
 async function fetchRepos() {
   try {
+    if (!token) {
+      console.warn(
+        "⚠️ No GITHUB_TOKEN set. Falling back to the unauthenticated GitHub API (60 req/h).",
+      );
+    }
+
     const { items, simpleRepoIds, fullRepoIds, projectsDict } = loadProjectsFromYaml();
     const data = username && simpleRepoIds.size > 0 ? await fetchAllRepos() : [];
 
@@ -358,6 +422,21 @@ async function fetchRepos() {
         ...projectOverride,
         previewImage,
       };
+    }
+
+    const overridesByName = {};
+    for (const [id, override] of Object.entries(projectsDict)) {
+      overridesByName[getRepoNameFromId(id)] = override;
+    }
+    preservePreviousValues(merged, loadPreviousRepos(), overridesByName);
+
+    const degraded = Object.values(merged).filter((repo) => !repo.language);
+    if (degraded.length > 0) {
+      console.warn(
+        `⚠️ No language for: ${degraded.map((repo) => repo.name).join(", ")}. ` +
+          `The GitHub API was unavailable (usually the 60 req/h unauthenticated ` +
+          `rate limit) — set GITHUB_TOKEN in .env and rebuild.`,
+      );
     }
 
     ensureDirExists(outputPath);

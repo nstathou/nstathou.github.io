@@ -4,10 +4,6 @@ import { FaArrowDown, FaArrowUp, FaRegCalendar } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 import { latestNews } from "@/data/latestNews";
 
-interface LatestNewsSectionProps {
-  variant?: string;
-}
-
 const TITLE = "Latest News";
 const DEFAULT_VISIBLE_NEWS = 3;
 
@@ -32,9 +28,7 @@ function rightSideYearLabel(value: string) {
   return yearMatch ? yearMatch[0] : value;
 }
 
-export default function LatestNewsSection({
-  variant: _variant = "default",
-}: LatestNewsSectionProps) {
+export default function LatestNewsSection() {
   const [expanded, setExpanded] = useState(false);
 
   const visibleNews = useMemo(() => {

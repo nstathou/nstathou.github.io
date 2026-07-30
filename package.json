@@ -16,7 +16,6 @@
     "format": "prettier --write 'src/**/*.ts'",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d dist",
     "deploy:clean": "rm -rf node_modules/.cache/gh-pages/ && npm run deploy",
     "deploy:manual": "npm run build:manual && gh-pages -d dist",
