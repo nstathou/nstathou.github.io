@@ -9,7 +9,7 @@ export const education = [
     supervisorUrl: `https://scholar.google.com/citations?user=YcN4-ZAAAAAJ&hl=en&oi=ao`
   },
   {
-    degree: `M.Eng. in Electrical and Computer Engineering (ECE)`,
+    degree: `M.S. in Electrical and Computer Engineering (ECE)`,
     school: `University of Patras, Greece`,
     years: `Aug 2020 - Aug 2022`,
     logo: `/webpage/images/upatras.png`
