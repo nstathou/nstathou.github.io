@@ -1,8 +1,8 @@
 {
   "name": "Nikolaos Stathoulopoulos",
-  "repoUrl": "https://nstathou.github.io/webpage",
+  "repoUrl": "https://github.com/nstathou/nstathou.github.io",
   "description": "Personal webpage",
   "author": "Nikolaos Stathoulopoulos",
-  "repoName": "webpage",
-  "base": "/webpage/"
+  "repoName": "nstathou.github.io",
+  "base": "/"
 }
