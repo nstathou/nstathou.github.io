@@ -5,7 +5,7 @@ export const publicationsFeatured = {
       title: `InLiER: Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization`,
       authors: `Nikolaos Stathoulopoulos and George Nikolakopoulos`,
       year: 2026,
-      venue: `IEEE Robotics and Automation Letters (RA-L), 2026`,
+      venue: `IEEE Robotics and Automation Letters (RA-L), vol. 11, no. 10, pp. 11275-11282, 2026`,
       comment: `🌟 Code released!`,
       link: `https://github.com/LTU-RAI/InLiER`,
       links: [
