@@ -8,7 +8,7 @@ export const publications: PublicationsType = {
       authors: `Nikolaos Stathoulopoulos and George Nikolakopoulos`,
       year: 2026,
       venue: `IEEE Robotics and Automation Letters (RA-L), 2026`,
-      comment: `🔜 Coming soon`,
+      comment: `🌟 Code released!`,
       link: `https://github.com/LTU-RAI/InLiER`,
       links: [
         {
@@ -16,8 +16,16 @@ export const publications: PublicationsType = {
           url: `https://github.com/LTU-RAI/InLiER`
         },
         {
+          label: `IEEE Xplore`,
+          url: `https://ieeexplore.ieee.org/document/11654548`
+        },
+        {
           label: `arXiv`,
           url: `https://arxiv.org/abs/2607.16862`
+        },
+        {
+          label: `YouTube`,
+          url: `https://www.youtube.com/watch?v=f73wsWx8vxg`
         }
       ],
       featured: true

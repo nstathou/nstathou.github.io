@@ -6,7 +6,7 @@ export const profile = {
   headline: `Ph.D. candidate @ Luleå University of Technology, Sweden`,
   email: `niksta@ltu.se / nstathou@gmail.com`,
   location: `Gothenburg, Västra Götaland, Sweden`,
-  profileImage: `/webpage/images/Nikolaos_Stathoulopoulos.jpg`,
+  profileImage: `/images/Nikolaos_Stathoulopoulos.jpg`,
   links: [
     {
       name: `Google Scholar`,
@@ -30,7 +30,7 @@ export const profile = {
     },
     {
       name: `CV`,
-      url: `/webpage/pdf/cv.pdf`,
+      url: `/pdf/cv.pdf`,
       icon: FaRegIdBadge
     }
   ],

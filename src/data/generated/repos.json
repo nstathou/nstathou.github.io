@@ -2,7 +2,7 @@
   "InLiER": {
     "name": "InLiER",
     "description": "Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization, accepted @ RA-L'26",
-    "stargazers_count": 11,
+    "stargazers_count": 13,
     "topics": [
       "learning-free",
       "localization",
@@ -15,8 +15,8 @@
     "homepage": "",
     "html_url": "https://github.com/LTU-RAI/InLiER",
     "created_at": "2026-07-15T12:43:51Z",
-    "updated_at": "2026-08-04T01:28:23Z",
-    "pushed_at": "2026-07-21T08:23:22Z",
+    "updated_at": "2026-08-26T06:58:33Z",
+    "pushed_at": "2026-08-26T06:57:05Z",
     "displayName": "InLiER",
     "previewImage": "/images/helipr.gif",
     "featured": true
@@ -79,8 +79,8 @@
     "homepage": "",
     "html_url": "https://github.com/nstathou/hello-slam",
     "created_at": "2025-09-22T18:52:14Z",
-    "updated_at": "2026-07-22T01:20:47Z",
-    "pushed_at": "2026-05-11T07:56:51Z",
+    "updated_at": "2026-08-24T15:23:37Z",
+    "pushed_at": "2026-08-21T09:35:58Z",
     "displayName": "hello-slam",
     "previewImage": "/images/particle_filter.gif",
     "featured": true

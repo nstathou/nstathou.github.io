@@ -2,7 +2,7 @@ import { LuUser, LuWrench, LuLibraryBig, LuNewspaper } from "react-icons/lu";
 
 export const sidebar = {
   userName: `Nikolaos Stathoulopoulos`,
-  profileImage: `/webpage/images/Nikolaos_Stathoulopoulos_zoomed.jpg`,
+  profileImage: `/images/Nikolaos_Stathoulopoulos_zoomed.jpg`,
   sections: [
     {
       title: `About Me`,
